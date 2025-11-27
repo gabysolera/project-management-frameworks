@@ -1,9 +1,9 @@
 # project-management-frameworks
 This repository contains templates, workflows, and practical tools I use as a Project Manager. All materials are adapted for small, fast-growing tech teams that need clarity, structure, and lightweight governance.
 
-## What's Inside
+## What's inside
 
-### 📂 Templates
+### Templates
 Reusable documents for planning, alignment, and team execution:
 - Project Charter  
 - RACI Matrix  
@@ -11,7 +11,7 @@ Reusable documents for planning, alignment, and team execution:
 - Retrospective Template  
 - Sprint Planning Structure  
 
-### 🔁 Workflows
+### Workflows
 Frameworks and operational systems:
 - Agile sprint lifecycle  
 - Jira workflow examples  
