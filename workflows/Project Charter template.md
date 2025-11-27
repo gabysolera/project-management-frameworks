@@ -3,7 +3,7 @@ A lean, structured document for defining purpose, scope, alignment, and executio
 
 ---
 
-## 1. Project Overview
+## 1. Project overview
 
 **Project Name:**  
 **Project Owner:**   
@@ -23,7 +23,7 @@ Articulate:
 
 ---
 
-## 3. Objectives & Success Criteria
+## 3. Objectives & Success criteria
 
 ### Objectives  
 List 3–5 high-level objectives that define what success means.
