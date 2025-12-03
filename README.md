@@ -18,7 +18,7 @@ Frameworks and operational systems:
 - PMO governance routines  
 - Decision log process  
 
-These resources represent how I approach delivery, prioritization, and organizational clarity—without any confidential information from my current or past roles.
+These resources represent how I approach delivery, prioritization, and organizational clarity, without any confidential information from my current or past roles.
 ---
 
 ## License
