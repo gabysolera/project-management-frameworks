@@ -14,7 +14,7 @@ Reusable documents for planning, alignment, and team execution:
 ### Workflows
 Frameworks and operational systems:
 - Agile sprint lifecycle  
-- Jira workflow examples  
+- Incident Management & Root Cause Analysis    
 - PMO governance routines  
 - Decision log process  
 
