@@ -1,6 +1,6 @@
 # Delivery readiness & Completion standards  
 This document defines the minimum conditions required for work to enter a sprint (Definition of ready) and the criteria that determine when work is considered complete (Definition of Done).  
-These standards ensure clarity, reduce rework, and align all teams on how delivery is validated—especially when the final approval belongs to a downstream function or business-facing role.
+They ensure predictable delivery, reduce rework, and maintain quality across engineering, data/modeling, operations, and any other business-facing functions.
 
 ---
 
@@ -18,17 +18,19 @@ The goal of this guideline is to:
 ## 2. Definition of Ready (DoR)
 
 An item can only be included in a sprint if **all** conditions below are met.  
-If any requirement is missing, the item is deferred.
+If any requirement is missing, the item is deferred. 
 
 ### 2.1 Requirements clarity
-- User story or ticket clearly states the problem or goal  
-- Acceptance criteria are explicit, testable, and visible in the ticket  
-- Non-functional expectations (performance, data, API behavior, constraints) are defined when relevant  
+- Clear problem statement and expected behavior 
+- Acceptance criteria is defined, explicit and testable
+- Non-functional expectations (performance, data, API behavior, constraints) are defined when relevant
+- Stakeholders aligned on impact and scope  
 
 ### 2.2 Technical validation
 - Designs, schemas, or field mappings are attached if needed  
-- API behavior is understood or confirmed with Solutions Engineering  
-- Data requirements validated with the Data/Modeling Team  
+- API requirements, payloads, validation logic, or processing rules defined 
+- Data requirements validated with the Data/Modeling Team
+- Environment availability confirmed (dev/test/sandbox)  
 
 ### 2.3 Dependency readiness
 - External dependencies (API changes, data availability, environment setup) are ready or scheduled  
@@ -56,10 +58,17 @@ Example: To reflect the operational reality of many teams, the **last developmen
 
 ### 3.1 Functional completion
 - All acceptance criteria pass  
-- Expected inputs/outputs behave correctly  
-- No regressions introduced  
+- Expected inputs/outputs behave correctly
+- Behavior validated across relevant environments    
+- No regressions introduced
 
-### 3.2 Cross-Team validation (depending on the work type)
+### Technical Completion
+- No failing automated or manual test cases  
+- Logging added where needed for monitoring or debugging  
+- Error handling implemented  
+- Performance acceptable for expected load
+
+### 3.2 Cross-Team validation example (depending on the work type)
 
 #### Development → Solutions Engineering
 - API logic validated  
@@ -99,10 +108,12 @@ Done means:
 ### 3.4 Documentation completed
 - Notes, schemas, instructions, or API details updated  
 - Any operational changes documented  
-- Release notes prepared if needed  
+- Release notes prepared if needed
+- PM systems (Jira, Microsoft Project, etc...) updated with final status   
 
 ### 3.5 Deployment ready
-- Work is deployable without additional changes  
+- Work is deployable without additional changes
+- Output is consumable by the downstream team
 - No manual fixes required after merge  
 
 ---
@@ -119,6 +130,10 @@ Done means:
 
 ## 5. Versioning
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Author:** G. Solera  
-**Changes:** Updated terminology (Business Stakeholder, Data/Modeling Team)
+**Last Updated:** 12/03/2025
+**Changes:** 
+- Standardized Definition of Ready and Definition of Done  
+- Added cross-functional acceptance requirements  
+- Improved technical readiness criteria and integration expectations
